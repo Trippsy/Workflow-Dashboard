@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.Signupwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Signupwrapper h1 {
+  font-size: medium;
+  margin-bottom: 20px;
+  margin-left: -26px;
+}
+.Signupwrapper p {
+  margin-top: 5px;
+  margin-left: 65px;
+}
+.Signupwrapper a {
+  text-decoration: none;
+}
+.logo img {
+  /* width: 200px; */
+  height: 45px;
+}
+.loginsection input {
+  margin-right: 27px;
+  width: 520px;
+  height: 49px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+input {
+  padding-left: 10px;
+  border: 1px solid #5c73db;
+}
+.signupcheckbox {
+  display: flex;
+}
+.signupcheckbox input {
+  height: 14px;
+  width: 14px;
+}
+button {
+  margin-right: 29px;
+  background-color: rgb(56, 41, 196);
+  width: 520px;
+  height: 45px;
+  border-radius: 12px;
+  border: none;
+}
+@media only screen and (max-width: 570px) {
+  .body {
+    padding: 0 16px;
+  }
+  .Signupwrapper {
+    width: 250%;
+    max-width: 100%;
+  }
+  .loginsection input {
+    max-width: 100%;
+  }
+}
