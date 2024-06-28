@@ -175,12 +175,14 @@ nav ul {
     border: 1px solid #4763E4;
     border-radius: 10px;
     margin-top: 8px;
+    padding-left: 20px;
 }
-input{
+.search input{
     width: 1000px;
     height: 40px;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 table{
@@ -315,6 +317,73 @@ td {
 .chevron_right a{
     color:black;
 } 
+
+.right_bottom{
+    display: flex;
+    margin-top: 24px;
+    gap: 8px;
+}
+.cities{
+    flex: 1;
+    width: 100%; 
+    background-color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+.cities_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cities_top button {
+    width: 82px;
+    height: 33px;
+    background-color: #4763E4;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cities_search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #4763E4;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.cities input{
+    width:500px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+.link_button button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+}
+
+
+.method{
+    flex: 1;
+    width: 100%;
+    background-color: red;
+}
 
 
 @media only screen and (max-width:1221px)
