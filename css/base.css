@@ -119,6 +119,7 @@ aside img {
 main {
   background-color: #f5f5f5;
 }
+
 .right {
   margin: 8px 24px;
 }
@@ -139,13 +140,16 @@ nav ul {
   list-style: none;
 }
 
+
+
 .list {
-  width: 100%;
-  height: 339px;
-  background-color: white;
-  margin-top: 24px;
-  padding: 24px;
-  border-radius: 8px;
+    width: 100%;
+    height: 339px;
+    background-color: white;
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 8px;
+
 }
 
 .countries {
@@ -167,17 +171,20 @@ nav ul {
 }
 
 .search {
-  display: flex;
-  align-items: center;
-  border: 1px solid #4763e4;
-  border-radius: 10px;
-  margin-top: 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #4763E4;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding-left: 20px;
 }
-input {
-  width: 1000px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
+.search input{
+    width: 1000px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
 }
 
 table {
@@ -308,17 +315,3 @@ td {
   border-bottom-right-radius: 5px;
 }
 
-.chevron_right a {
-  color: black;
-}
-
-@media only screen and (max-width: 550px) {
-  aside {
-    display: none;
-  }
-  .overall_base {
-  }
-  nav {
-    width: 450px;
-  }
-}
