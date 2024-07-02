@@ -122,6 +122,7 @@ aside img {
 }
 .control {
   padding-left: 44px;
+  padding-right: 24px;
 }
 .container-p {
   font-size: 32px;
@@ -143,4 +144,150 @@ aside img {
   border-bottom-style: solid;
   padding-bottom: 8px;
   border-bottom-color: rgba(70, 88, 172, 1);
+}
+.contol-Subsection {
+  height: 688px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.listOfCompanies {
+  display: flex;
+  justify-content: space-between;
+}
+.listOfCompanies button {
+  width: 82px;
+  height: 33px;
+  background-color: #4763e4;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.controlSearch {
+  display: flex;
+  width: 254px;
+  align-items: center;
+  border: 1px solid #4763e4;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+.controlSearch input {
+  width: 254px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  margin-top: 12px;
+}
+th {
+  color: grey;
+}
+td {
+  text-align: center;
+  padding: 12px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.pages {
+  display: flex;
+}
+.pagination ul {
+  list-style: none;
+}
+.pagination a {
+  text-decoration: none;
+  color: #4763e4;
+}
+
+.chevron {
+  border: 1px solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.first {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+  background-color: #4763e4;
+}
+.first a {
+  color: white;
+}
+
+.second {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+.second a {
+  color: black;
+}
+
+.third {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.third a {
+  color: black;
+}
+
+.dot {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.dot a {
+  color: black;
+}
+
+.eight {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.eight a {
+  color: black;
+}
+
+.nine {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.nine a {
+  color: black;
+}
+
+.ten {
+  width: 35px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.ten a {
+  color: black;
+}
+.chevron_right {
+  border: 1px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.chevron_right a {
+  color: black;
 }
