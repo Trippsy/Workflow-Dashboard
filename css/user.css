@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.overall_base {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+aside {
+  background-color: #0e1b6b;
+  color: white;
+}
+aside img {
+  width: 80%;
+  padding: 24px;
+}
+
+.items {
+  margin: 12px;
+}
+.overall {
+  display: flex;
+  gap: 12px;
+}
+
+.overall_icon {
+  display: flex;
+  gap: 5px;
+}
+
+.overall_items {
+  padding-left: 32px;
+}
+.overall_items a {
+  text-decoration: none;
+  color: white;
+}
+.overall_items ul {
+  list-style: none;
+}
+.overall_items li {
+  padding: 5px;
+}
+.user_link {
+  background-color: #4256d0;
+  border-radius: 8px;
+}
+
+.folder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  color: gray;
+}
+.folder_icon {
+  display: flex;
+  gap: 5px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  color: gray;
+}
+.project_icon {
+  display: flex;
+  gap: 5px;
+}
+.technical {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  color: gray;
+  font-size: 12px;
+}
+.technical_icon {
+  display: flex;
+  gap: 5px;
+}
+.protection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  color: gray;
+}
+.protection_icon {
+  display: flex;
+  gap: 5px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.profile img {
+  width: 85px;
+  height: 85px;
+}
+.name {
+  padding-right: 8px;
+  font-size: 12px;
+}
+
+.nav_bar {
+  display: flex;
+  text-align: center;
+}
+.nav_bar .theuser {
+  color: #4256d0;
+}
+.countries p {
+  font-size: 32px;
+}
+.search span {
+  margin-left: 15px;
+}
+.addbutton {
+  background-color: #4256d0;
+  width: 13%;
+  /* border: 1px solid #4256d0; */
+  border-radius: 8px;
+  /* margin-top: 5px; */
+  padding: 10px;
+  margin-top: 10px;
+}
+.addbutton button {
+  background-color: #4256d0;
+  border: none;
+  margin-left: 15px;
+}

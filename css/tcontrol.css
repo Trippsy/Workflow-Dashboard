@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
+ody {
   font-family: 'Inter', sans-serif;
 }
 .overall_base {
@@ -46,7 +46,7 @@ aside img {
 .overall_items li {
   padding: 5px;
 }
-.user_link {
+.Control_link {
   background-color: #4256d0;
   border-radius: 8px;
 }
@@ -112,31 +112,74 @@ aside img {
   padding-right: 8px;
   font-size: 12px;
 }
-
-.nav_bar {
+.control_form {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.control_form h1 {
+  font-size: 20px;
+}
+.control_head {
   display: flex;
-  text-align: center;
+  margin-top: 20px;
+  justify-content: space-between;
 }
-.nav_bar .theuser {
-  color: #4256d0;
-}
-.countries p {
-  font-size: 32px;
-}
-.search span {
-  margin-left: 15px;
-}
-.addbutton {
-  background-color: #4256d0;
-  width: 13%;
-  /* border: 1px solid #4256d0; */
-  border-radius: 8px;
+
+.control input {
+  width: 516px;
   margin-top: 5px;
-  padding: 10px;
-  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(146, 146, 255);
+  padding: 12px;
+  max-width: 100%;
+  height: 49px;
 }
-.addbutton button {
-  background-color: #4256d0;
+.control_head select {
+  width: 516px;
+  height: 49px;
+  border: 1px solid rgb(146, 146, 255);
+  border-radius: 10px;
+  margin-top: 8px;
+  max-width: 100%;
+  padding-left: 10px;
+}
+.flexcontrol select {
+  width: 516px;
+  height: 49px;
+  border: 1px solid rgb(146, 146, 255);
+  border-radius: 10px;
+  margin-top: 8px;
+  max-width: 100%;
+}
+.flexcontrol input {
+  width: 516px;
+  margin-top: 5px;
+  height: 49px;
+  border-radius: 10px;
+  border: 1px solid rgb(146, 146, 255);
+  padding: 12px;
+  max-width: 100%;
+}
+.controlbutton {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.controlbutton button {
+  background-color: #4763e4;
   border: none;
-  margin-left: 15px;
+  width: 150px;
+  max-width: 100%;
+  border-radius: 10px;
+  color: #ffff;
+}
+.controlbutton .second {
+  background-color: #f7efef;
+  border: none;
+  width: 150px;
+  max-width: 100%;
+  border-radius: 10px;
+  height: 40px;
+  color: rgb(22, 20, 20);
 }
