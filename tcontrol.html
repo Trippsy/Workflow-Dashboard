@@ -8,7 +8,7 @@
     />
     <link
       rel="stylesheet"
-      href="./css/user.css"
+      href="./css/tcontrol.css"
     />
     <link
       rel="stylesheet"
@@ -76,7 +76,7 @@
       href="./css/base.css"
     />
 
-    <title>Configuration User</title>
+    <title>Configuration Control</title>
   </head>
 
   <body>
@@ -96,9 +96,9 @@
           </div>
           <div class="overall_items">
             <ul>
-              <li class="user_link"><a href="#">User</a></li>
+              <li><a href="#">User</a></li>
               <li><a href="#">Base</a></li>
-              <li><a href="#">Control</a></li>
+              <li class="Control_link"><a href="#">Control</a></li>
               <li><a href="#">Workflow</a></li>
               <li><a href="#">Alerts</a></li>
               <li><a href="#">Roles</a></li>
@@ -148,84 +148,74 @@
           </div>
         </div>
       </aside>
-      <!-- RIGHT -->
-
-      <main>
-        <nav>
-          <div class="nav_bar">
-            <p>Users</p>
-            <span class="material-symbols-outlined"> chevron_right </span>
-            <p class="theuser">Users List</p>
+      <!-- mainbody -->
+      <div class="control_form">
+        <h1>Registration of an insurance company</h1>
+        <div class="control_head">
+          <div class="control">
+            <p>Company Name</p>
+            <input
+              type="Email"
+              placeholder="alexander.foley@mail.com"
+            />
+            <p>Branch</p>
+            <select>
+              <option>Life</option>
+              <option>live</option>
+              <option>life</option>
+              <option>South Africa</option>
+              <option>Japan</option>
+            </select>
+            <p>Website</p>
+            <input
+              type="Email"
+              placeholder="www.alexander.figma.com"
+            />
+            <p>GPS Latitude</p>
+            <input type="text" />
+            <p>GPS Lontitude</p>
+            <input type="text" />
           </div>
-          <span class="material-symbols-outlined"> notifications </span>
-        </nav>
-        <div class="right">
-          <!-- <p class="theuser">Users List</p> -->
 
-          <div class="list">
-            <div class="countries">
-              <h1>Configuration</h1>
-            </div>
-
-            <div class="search">
-              <span class="material-symbols-outlined"> search </span>
-              <form>
-                <input
-                  type="search"
-                  placeholder="Looking for a country ..."
-                />
-              </form>
-            </div>
-            <div class="addbutton">
-              <button>Add a user +</button>
-            </div>
-            <div class="pagination">
-              <a href="#">100 users</a>
-              <ul class="pages">
-                <div class="chevron">
-                  <li>
-                    <a href="#"
-                      ><span class="material-symbols-outlined">
-                        chevron_left
-                      </span></a
-                    >
-                  </li>
-                </div>
-                <div class="first">
-                  <li><a href="#">1</a></li>
-                </div>
-                <div class="second">
-                  <li><a href="#">2</a></li>
-                </div>
-                <div class="third">
-                  <li><a href="#">3</a></li>
-                </div>
-                <div class="dot">
-                  <li><a href="#">...</a></li>
-                </div>
-                <div class="eight">
-                  <li><a href="#">8</a></li>
-                </div>
-                <div class="nine">
-                  <li><a href="#">9</a></li>
-                </div>
-                <div class="ten">
-                  <li><a href="#">10</a></li>
-                </div>
-                <div class="chevron_right">
-                  <li>
-                    <a href="#"
-                      ><span class="material-symbols-outlined">
-                        chevron_right
-                      </span></a
-                    >
-                  </li>
-                </div>
-              </ul>
-            </div>
+          <div class="flexcontrol">
+            <p>Country</p>
+            <select>
+              <option>Cameroon</option>
+              <option>canada</option>
+              <option>Nigeria</option>
+              <option>South Africa</option>
+              <option>Japan</option>
+            </select>
+            <p>City</p>
+            <select>
+              <option>Douala</option>
+              <option>Buea</option>
+              <option>Limbe</option>
+              <option>Garoua</option>
+              <option>Mokolo</option>
+            </select>
+            <p>Main email address</p>
+            <input
+              type="Email"
+              placeholder="alexander.foley@mail.com"
+            />
+            <p>Secondary email address</p>
+            <input
+              type="Email"
+              placeholder="alexander.foley@mail.com"
+            />
+            <p>Controller Commissioner</p>
+            <input
+              type="Email"
+              placeholder="alexander.foley@mail.com"
+            />
           </div>
         </div>
-      </main>
+        <div class="controlbutton">
+          <button>Save</button>
+          <button class="second">Cancel</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

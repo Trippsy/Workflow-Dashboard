@@ -128,12 +128,16 @@ aside img {
   width: 50%;
   flex: 1;
 }
-
+.edit_acct p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .emaildetails input {
   width: 500px;
   margin-top: 5px;
   border-radius: 10px;
   border: 1px solid rgb(146, 146, 255);
+  padding: 12px;
 }
 .phonedetails {
   width: 100%;
@@ -145,4 +149,19 @@ aside img {
   margin-top: 5px;
   border-radius: 10px;
   border: 1px solid rgb(146, 146, 255);
+  padding: 12px;
+}
+.modify_button {
+  margin-top: 50px;
+  border: 1px solid;
+  width: 100px;
+  border-radius: 8px;
+  padding-left: 10px;
+  background-color: #4763e4;
+}
+.modify_button button {
+  background-color: #4763e4;
+  color: #ffff;
+  border: none;
+  margin: 10px;
 }
