@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(7, 4, 39);
+    color: white;
+    font-family:  "Rubik", sans-serif ;
+}
+
+
+header {
+    background-color:rgb(37, 37, 64);
+    padding: 24px 32px;
+}
+.overall {
+    display: flex;
+    padding-left: 32px; 
+}
+
+
+.duration h2 {
+    padding: 8px 24px;
+}
+
+.days {
+    display: flex;
+    padding: 12px 0;
+}
+
+.days span {
+    background-color: rgb(35, 38, 59);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.days p {
+    margin: 0 8px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.gig {
+    margin: 0 12px;
+
+}
+.gig h2 {
+    padding: 8px 24px;
+}
+
+.gb {
+    display: flex;
+    padding: 12px 0;
+}
+
+.gb span {
+    background-color: rgb(35, 38, 59);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.gb p {
+    margin: 0 8px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.countries {
+    padding: 32px 24px;
+}
+
+.countries button {
+    margin-top: 12px;
+    padding: 8px 12px;
+    background-color: rgb(7, 4, 39);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.bottom {
+    padding-left: 64px;
+}
+
+.select {
+    padding-left: 125px;
+}  
+    
+.select button {
+    margin-top: 12px;
+    padding: 8px 12px;
+    background-color: rgb(35, 38, 59);
+    color: white;
+    border: none;
+    border-radius: 32px;
+}
+
+
+.navigation {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+    padding: 12px ;
+    background-color: rgb(35, 38, 59);
+    border-radius: 32px;
+}
+.store span {
+    padding-left: 12px;
+}
+.manage span {
+    padding-left: 12px;
+}
+.profile span {
+    padding-left: 12px;
+}
+
+
+@media only screen and (max-width:990px)
+{
+    .data {
+        display: flex;
+        justify-content: space-between;
+    }
+    .overall{
+        flex-direction: column; 
+    }
+
+
+    .duration {
+        padding-left: 140px;
+        border-bottom: 2px solid gray;
+    }
+    .gig {
+        padding-left: 140px;
+        border-bottom: 2px solid gray;
+    }
+
+    .countries h2 {
+        padding-left: 144px;
+    }
+    .countries button {
+        width: 90%; 
+    }
+
+    .bottom{
+        margin-right: 140px;
+    }
+
+    .select  button {
+        width: 90%;
+        justify-content: center;
+        margin-top: 100%;
+    }
+
+
+    .navigation{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 42px;
+    }
+}

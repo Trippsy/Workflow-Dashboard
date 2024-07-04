@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-very-dark-blue: hsl(243, 87%, 12%);
+    --prmary-desaturated-blue: hsl(238, 22%, 44%);
+    --accent-bright-blue: hsl(224, 93%, 58%);
+    --accent-moderate-cyan: hsl(170, 45%, 43%);
+    --neautral-ight-grayish-blue: hsl(240, 75%, 98%);
+    --neutral-ight-gray: hsl(0, 0%, 75%);
+    --font-size: 16px;
+    --head-text: "Raleway", sans-serif;
+    --body-text: "Open Sans", sans-serif;
+
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 64px;
+}
+
+.link ul {
+    padding-left: 450px;
+    padding-top: 24px;
+}
+
+.link li {
+    display: inline;
+}
+
+.link ul li a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    padding-left: 64px;
+
+}
+
+header .left {
+    flex: 1;
+    padding-top: 64px;
+}
+
+header .left h1 {
+    color: var(--primary-very-dark-blue);
+    font-family: var(--head-text);
+}
+
+header .left p {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    color: var(--primary-very-dark-blue);
+    font-family: var(--body-text);
+    font-size: var(--font-size);
+}
+
+header input {
+    width: 50%;
+    height: 35px;
+    border-radius: 3px;
+
+}
+
+header .left button {
+    width: 120px;
+    height: 35px;
+    background-color: var(--accent-bright-blue);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+
+header .right {
+    flex: 1;
+}
+
+header .right img {
+    width: 100%;
+}
+
+main .curve img {
+    margin-top: 250px;
+    width: 100%;
+}
+
+.stay_product {
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: var(--neautral-ight-grayish-blue);
+}
+
+
+.stay_product .left {
+    flex: 1;
+}
+
+
+.stay_product .left h2 {
+    font-family: var(--head-text);
+    color: var(--primary-very-dark-blue);
+    padding-bottom: 32px;
+}
+
+.stay_product .left p {
+    color: var(--primary-very-dark-blue);
+    font-family: var(--body-text);
+    font-size: var(--font-size);
+    padding-bottom: 12px;
+}
+
+.arrow a {
+   /* text-decoration: none;*/
+    color: var(--accent-moderate-cyan);
+
+}
+.arrow  a img {
+    text-decoration: underline;
+    color: var(--accent-moderate-cyan);
+}
+
+.card {
+    width: 50%;
+    height: 220px;
+    margin-top: 24px;
+    padding: 12px 24px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.card p {
+    color: var(--primary-very-dark-blue);
+    font-family: var(--body-text);
+    font-size: var(--font-size);
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.holder {
+    padding-left: 64px;
+    position: relative;
+    top: -50px;
+}
+
+
+.stay_product .right {
+    flex: 1;
+}
+
+
+.stay_product .right img {
+    width: 100%;
+}
+
+.early_access {
+    width: 100%;
+    display: flex;
+    padding-left: 64px;
+    background-color: var(--prmary-desaturated-blue);
+}
+
+.early_access .left {
+    flex: 1;
+    padding: 120px 8px;
+
+}
+
+.early_access .right {
+    flex: 1;
+    padding: 120px 8px;
+}
+
+.early_access .right input {
+    width: 80%;
+    height: 45px;
+    border-radius: 3px;
+}
+
+
+
+.early_access .right button {
+    width: 120px;
+    height: 40px;
+    margin-top: 12px;
+    background-color: var(--accent-bright-blue);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+}
+
+
+footer {
+    height: 250px;
+    background-color: var(--primary-very-dark-blue);
+    color: white;
+    display: flex;
+    padding-top: 64px;
+    padding-left: 64px;
+}
+
+footer .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .left svg {
+    width: 150px;
+}
+
+footer .left p {
+    display: flex;
+    gap: 8px;
+}
+
+footer .left p svg {
+    width: 24px;
+    height: 24px;
+}
+
+footer .right {
+    flex: 1;
+}
+
+
+footer .right ul {
+    display: inline-block;
+    padding-left: 64px;
+    list-style-type: none;
+    padding-top: 32px;
+}

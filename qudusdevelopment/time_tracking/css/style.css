@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-blue: hsl(246, 80%, 60%);
+    --lightred-work: hsl(15, 100%, 70%);
+    --light-red-study: hsl(348, 100%, 68%);
+    --lime-green-exercise: hsl(145, 58%, 55%);
+    --violet-social: hsl(264, 64%, 52%);
+    --soft-orange-self-care: hsl(43, 84%, 65%);
+    --neutral-very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desaturated-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+    --soft-blue-play: hsl(195, 74%, 62%);
+    --font-size:18px;
+    --font-family: "Rubik", sans-serif;
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    background-color: var(--neutral-very-dark-blue);
+   
+}
+
+.profile{
+    background-color: var(--desaturated-blue);
+}
+.work_exercise{
+    background-color: var(--neutral-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.play_social {
+    background-color: var(--neutral-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.study {
+    background-color: var(--neutral-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.seflcare {
+    background-color: var(--neutral-very-dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile{
+    padding: 24px;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    border-radius: 5px;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+}
+.report {
+    font-size: 12px;
+    color:rgb(138, 131, 131) ;
+}
+.holder {
+    color: white;
+    font-family: var(--font-family);
+}
+
+.second_profile {
+    
+    border-radius: 5px;
+}
+
+.second_profile li {
+    list-style-type: none;
+}
+
+
+.item5{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item5{
+    padding-top: 12px;
+    background-color:var(--lightred-work);
+}
+
+.work_p{
+    display: flex;
+     justify-content: space-between;
+     padding-right: 12px;
+}
+.work_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.work_week{
+    color: rgb(138, 131, 131);
+}
+
+
+
+
+.item6{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item6{
+    background-color: var(--lime-green-exercise);
+    border-radius: 5px;
+}
+
+.exercise_p{
+     display: flex;
+     justify-content: space-between;
+     padding-right: 12px;
+}
+.exercise_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.exercise_week{
+    color: rgb(138, 131, 131);
+}
+
+.item1{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item1{
+    padding-top: 12px;
+    background-color:var(--soft-blue-play);
+}
+
+.play_p{
+    display: flex;
+     justify-content: space-between;
+     padding-right: 12px;
+}
+.play_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.play_week{
+    color: rgb(138, 131, 131);
+}
+
+
+.item2{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item2{
+    padding-top: 12px;
+    background-color:var(--violet-social);
+}
+
+
+.social_p{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+.social_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.social_week{
+    color: rgb(138, 131, 131);
+}
+
+
+
+.item3{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item3{
+    padding-top: 12px;
+    background-color:var(--light-red-study);
+}
+
+
+.study_p{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+.study_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.study_week{
+    color: rgb(138, 131, 131);
+}
+
+
+.item4{
+    background-color: var(--dark-blue);
+    padding: 12px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: white;
+}
+
+.overall_item4{
+    padding-top: 12px;
+    background-color:var(--soft-orange-self-care);
+}
+
+.selfcare_p{
+    display: flex;
+     justify-content: space-between;
+     padding-right: 12px;
+}
+.selfcare_hour{
+    font-size: 32px;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+.selfcare_week{
+    color: rgb(138, 131, 131);
+}
+

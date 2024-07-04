@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.side_menu {
+    margin-top: 32px;
+    margin-left: 24px;
+    background-color: white;
+}
+
+.profile {
+    padding-left: 64px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.title h1 {
+    font-size: 16px;
+}
+
+
+.title p {
+    font-size: 12px;
+}
+
+
+.menu .dashboard {
+    display: flex;
+    padding: 8px 12px;
+}
+
+
+.dashboard img {
+    width: 30px;
+    height: 30px;
+}
+
+.dashboard p {
+    font-size: 14px;
+    padding-top: 8px; 
+}
+
+.market {
+    display: flex;
+    padding: 8px 12px;
+}
+.market img {
+    width: 30px;
+    height: 30px;
+}
+.market p {
+    font-size: 14px;
+    padding-top: 8px;
+}
+.active_bids {
+    display: flex;
+    padding: 8px 12px;
+}
+.active_bids img {
+    width: 30px;
+    height: 30px;
+}
+.active_bids p {
+    font-size: 14px;
+    padding-top: 8px;
+}
+.favourites {
+    display: flex;
+    padding: 8px 12px;
+}
+.favourites img {
+    width: 30px;
+    height: 30px;
+}
+.favourites p {
+    font-size: 14px;
+    padding-top: 8px;
+}
+.portfolio {
+    display: flex;
+    padding: 8px 12px;
+}
+.portfolio img {
+    width: 30px;
+    height: 30px;
+}
+.portfolio p {
+    font-size: 14px;
+    padding-top: 8px;
+}
+.wallet {
+    display: flex;
+    padding: 8px 12px;
+}
+.wallet img {
+    width: 30px;
+    height: 30px;
+}
+.wallet p {
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.balance {
+    width: 150px;
+    height: 120px;
+    background-image: url(../assets/image/Rectangle\ 363.png);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 12px;
+    margin: 64px 12px;
+    padding-top: 12px;
+    text-align: center;
+     border-top-right-radius: 20px; 
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+
+.balance img {
+    width: 15px;
+    height: 15px;
+}
+
+.balance .coin {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 32px;
+}
+
+.top_up {
+    background-color: yellow;
+    color: black;
+    margin: 18px 24px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.log_out {
+    display: flex;
+    color: red;
+    gap: 8px;
+}
+
+.log_out img {
+    width: 25px;
+    height: 25px;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+    padding:12px 10px;
+    background-color:whitesmoke;
+    justify-content: space-between;
+}
+
+.search {
+    background-color: rgb(236, 234, 234);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color:  rgb(236, 234, 234) ;
+    padding-left: 12px;
+    padding-right: 64px;
+    padding-top: 12px;
+    gap: 32px;
+}
+
+.toggle {
+    display: flex;
+    gap: 12px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    -webkit-transition: .4s;
+    transition: .4s;
+  
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider {
+    background-color:gray;
+  }
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(217, 214, 214);
+  }
+  input:checked + .slider:before {
+    
+    transform: translateX(26px);
+  }
+  
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+.profile_right {
+    display: flex;
+    gap: 12px;
+}
+
+.profile_right  img  {
+    width: 35px;
+    height: 35px;
+}
+
+
+.overall {
+    display: grid;
+    grid-template-columns:1fr;
+    background-color:whitesmoke;
+    gap: 64px;
+}
+
+
+.nft {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px;
+    background-image: url(../assets/image/Rectangle\ 359.png);
+    background-repeat: no-repeat;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    
+}
+
+.nft_head {
+    height: 100%;
+    padding-top: 32px;
+}
+
+.nft_head h1  {
+    padding: 24px 24px;
+    color: white;
+}
+
+.nft_head h1 img {
+    position: absolute;
+    top: 180px;
+    left: 360px;
+}
+
+.nft_head button {
+    margin-left: 24px;
+    padding: 5px 5px;
+    color: white;
+    background-color: rgba(47, 128, 237, 1);
+    border: none;
+    border-radius: 4px;
+}
+
+.icon {
+    position: relative;
+    top: -250px;
+    left: 320px;
+}
+
+.icon img {
+    width: 40%;
+    height: 40%;
+}
+
+.trending {
+    padding-left: 24px;
+}
+
+.trend_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend_icon {
+    display: flex;
+    color: blue;
+}
+
+.trend_body {
+    padding: 24px 24px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 24px;
+}
+
+.arts_left, .arts_center,.arts_right {
+    background-color: white;
+    width: 100%;
+    height: 65%;
+    border-radius: 20px;
+}
+
+.arts_left img, .arts_center img, .arts_right img  {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.avatar {
+    display: flex;
+    width: 20%;
+    position: relative;
+    top: -16px;
+    left: 12px;
+}
+
+.savannah{
+    padding-left: 12px;
+}
+
+.savannah p{
+    font-size: 12px;
+}
+
+.ethereum {
+    display: flex;
+}
+
+.ethereum img {
+    width: 10%;
+}
+
+.ethereum p{
+    padding: 6px;
+    font-size: 12px;
+}
+
+.arts_left button, .arts_center button, .arts_right button {
+    border: 2px solid  rgba(47, 128, 237, 1) ;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-bottom: 32px;
+}
+
+.top_collection {
+    background-color: white;
+    border-radius: 12px;
+    margin-left: 24px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px;
+    font-size: 12px;
+}
+
+.top_icon {
+    display: flex;
+    gap: 5px;
+}
+
+.top_icon span  {
+    color:  rgba(47, 128, 237, 1) ;
+}
+
+.collection {
+    padding-left: 24px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr ;
+    grid-template-rows: 2;
+}
+
+.first_collection {
+    padding: 18px 0;
+    gap: 8px;
+}
+
+.crypto {
+    display: flex;
+}
+
+.items h4 {
+    padding: 5px 5px;
+}
+
+.items_icon {
+    display: flex;
+    color: rgb(172, 170, 170);
+}
+
+
+.right {
+    margin: 20px 20px;
+}
+.auction {
+    background-color: white;
+    border-radius: 12px;
+}
+
+.auction img {
+    width: 100%;
+    padding: 14px 14px;
+}
+
+.live {
+    padding: 16px 32px;
+    margin-left:64px;
+    margin-bottom: 44px;
+    background-color:  rgba(47, 128, 237, 1) ;
+    text-align: center;
+    border-radius: 8px;
+    position:absolute;
+    
+}
+
+.live h1 {
+    color: white;
+    line-height: 70%;
+}
+
+.auction_black {
+    padding: 12px 24px;
+}
+.auction_black h2  {
+    padding: 5px 0;
+}
+.auction_black p{
+    color: rgb(188, 183, 183);
+}
+
+.high {
+    
+    padding: 5px 0;
+}
+
+.high a {
+    text-decoration: none;
+    color: rgba(47, 128, 237, 1) ;
+    margin-top: 24px;
+}
+
+.high button {
+    border: 2px solid  rgba(47, 128, 237, 1) ;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-left: 250px;
+}
+
+.creator {
+    padding: 12px 12px;
+    margin-top: 32px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.creator_top {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.creator_top a {
+    text-decoration: none;
+    color:  rgba(47, 128, 237, 1) ;
+}
+
+
+.poma3 {
+    display: flex;
+    gap: 10px;
+    padding: 8px 15px;
+}
+
+.yemare {
+    padding: 8px 0;
+}
+
+.pomaline {
+    margin-left: 22px;
+}
+
+
+.pomaline button {
+    margin-top: 8px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgba(47, 128, 237, 1) ;
+    color: white;
+}
+
+
+.poma1 {
+    display: flex;
+    gap: 10px;
+    padding: 8px 15px;
+}
+
+.sunny {
+    padding: 8px 0;
+}
+
+.pomaline1 {
+    margin-left: 22px;
+}
+
+
+.pomaline1 button {
+    margin-top: 8px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(47, 128, 237, 1) ;
+    background-color: white;
+}
+
+
+.leinard {
+    display: flex;
+    gap: 10px;
+    padding: 8px 15px;
+}
+
+.lein {
+    padding: 8px 0;
+}
+
+.studio {
+     margin-left:34px; 
+}
+
+
+.studio button {
+    margin-top: 8px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(47, 128, 237, 1) ;
+    background-color: white;
+}
+
+.okro {
+    display: flex;
+    gap: 10px;
+    padding: 8px 15px;
+}
+
+.ple {
+    padding: 8px 0;
+}
+
+.pleple {
+    margin-left: 34px;
+}
+
+
+.pleple button {
+    margin-top: 8px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgba(47, 128, 237, 1) ;
+    color: white;
+}
+
+
+@media only screen and (max-width:1128px)
+{
+    body{
+        grid-template-rows: 1;
+    }
+
+    .overall {
+        grid-template-columns: 1fr;
+    }
+
+    .side_menu {
+        display: none;
+    }
+
+    nav {
+        padding:0 8px;
+    }
+
+    .nft {
+        margin: 12px;
+    }
+
+    .nft_head h1 img {
+        position: absolute;
+        top: 202px;
+        left: 128px;
+    }
+
+    .search {
+        display: flex;
+    }
+    
+    
+    
+}

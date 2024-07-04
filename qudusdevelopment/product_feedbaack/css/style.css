@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(224, 223, 223);
+}
+
+.feedback {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feedback .left {
+    flex-direction: column;
+    padding-top: 120px;
+    padding-left: 120px;
+}
+
+.left .frontend {
+    width:210px;
+    height: 110px;
+    margin-bottom: 24px;
+    padding-top: 54px ;
+    padding-left: 24px;
+    background-color:blue;
+    color: white;
+    font-size: 8px;
+    border-radius: 8px;
+}
+.left .all_button {
+    width:210px;
+    height: 110px;
+    background-color: white;
+    padding-left: 28px;
+    padding-right: 12px;
+    padding-top: 16px;
+    border-radius: 8px;
+}
+.all_button button {
+    padding: 5px 5px;
+    margin: 1px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+
+.left .roadmap {
+    width: 210px;
+    height: 110px;
+    display: flex;
+    background-color:white;
+    margin-top:24px ;
+    padding-left: 32px;
+    padding-top: 12px;
+    border-radius: 8px;
+}
+
+.roadmap .map {
+    flex: 1;
+}
+
+.roadmap .view {
+    flex: 1;
+
+}
+
+.feedback .right {
+    padding-right:120px;
+    padding-top: 120px;
+}
+
+.right .suggestions {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 146);
+    color: white;
+    padding: 12px 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.right .suggestions h4 {
+    padding-top: 8px;
+    padding-left: 32px;
+}
+
+.right .arrow_down p {
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+.arrow_down img {
+    width: 34px;
+
+}
+
+.right .suggestions button {
+    padding: 8px 8px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.right .tag {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.tag .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.tag .add {
+    padding-left: 24px;
+}
+
+.tag button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.tag .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:240px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+
+.right .theme {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.theme .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.theme .add {
+    padding-left: 24px;
+}
+
+.theme button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.theme .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:180px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+.right .challenge {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.challenge .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.challenge .add {
+    padding-left: 24px;
+}
+
+.challenge button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.challenge .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:180px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+
+.right .upload {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.upload .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.upload .add {
+    padding-left: 24px;
+}
+
+.upload button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.upload .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:180px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+
+.right .ability {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.ability .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.ability .add {
+    padding-left: 24px;
+}
+
+.ability button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.ability .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:180px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+
+.right .preview {
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding: 22px 22px; 
+    background-color: white;
+    border-radius: 12px;
+}
+.preview .number {
+    width: 40px;
+    height: fit-content;
+    padding-bottom: 4px;
+    text-align: center;
+    background-color: rgb(192, 183, 183);
+    border-radius: 5px;
+    font-size: small;
+}
+
+.number img {
+    width: 34px;
+}
+
+.preview .add {
+    padding-left: 24px;
+}
+
+.preview button {
+    padding: 5px 5px;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 222, 222);
+    color: blue;
+}
+
+.preview .overall {
+    display: flex;
+}
+.overall .comment {
+    display: flex;
+    gap: 8px;
+    padding-left:180px ;
+} 
+.comment img {
+    width: 24px;
+    height: fit-content;
+}
+
+
+@media only screen and (max-width:850px) {
+    .left {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+

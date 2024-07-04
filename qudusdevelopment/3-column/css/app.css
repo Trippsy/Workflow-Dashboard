@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    
+--primary-bright-orange: hsl(31, 77%, 52%);
+--primary-dark-cyan: hsl(184, 100%, 22%);
+--primary-very-dark-cyan: hsl(179, 100%, 13%);
+--neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+--neutral-very-light-gray: hsl(0, 0%, 95%);
+--font-size: 24px;
+--head-text: "Lexend Deca", sans-serif;
+--body-text: "Big Shoulders Display", sans-serif;;
+}
+
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    color:var(--neutral-transparent-white);
+    padding: 32px 32px;
+}
+
+.grid_container .sedans{
+    background-color:var(--primary-bright-orange);
+    padding-top: 32px;
+    border-top-left-radius: 12px;
+    border-radius: 12px;
+}
+
+.grid_container .suvs{
+    background-color:var(--primary-dark-cyan);
+    padding-top: 32px;
+    border-radius: 12px;
+}
+
+.grid_container .luxury {
+    background-color:var(--primary-very-dark-cyan);
+    padding-top: 32px;
+    border-top-right-radius: 12px;
+    border-radius: 12px;
+}
+
+img {
+    padding: 32px 32px;
+}
+
+h1 {
+    padding: 32px 32px;
+    font-size: var(--font-size);
+    font-family: var(--head-text);
+    line-height: 24%;
+}
+p {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    word-spacing: 12px;
+    color: var(--neutral-very-light-gray);
+}
+
+button {
+   border-radius: 32px;
+   border: none;
+    margin-bottom:32px ;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.sedans button p {
+    color: var(--primary-bright-orange);
+    position: relative;
+    bottom: -14px;
+    
+}
+.suvs button p {
+    color: var(--primary-dark-cyan);
+    position: relative;
+    bottom: -14px;
+}
+.luxury button p {
+    color: var(--primary-very-dark-cyan);
+    position: relative;
+    bottom: -14px;
+}
+
+@media only screen and (max-width:516px) {
+    .grid_container{
+        grid-template-columns: 1fr;
+    }
+
+}

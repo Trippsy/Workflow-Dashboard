@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: hsl(322, 100%, 66%);
+    --veryplaecyan: hsl(193, 100%, 96%);
+    --verydarkcyan: hsl(192, 100%, 9%);
+    --grayishblue: hsl(208, 11%, 55%);
+    --headingText: font-family: "Poppins", sans-serif;
+    --bodyText: font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    /* background-image: url(../assets/image/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px; */
+    font-family: var(--bodyText)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+nav a {
+    color: var(--verydarkcyan);
+    background-color: var(--grayishblue);
+    padding-left: 22px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    padding-right: 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    padding: 32px 64px 0px 64px;
+    align-items: center;
+}
+
+header .left {
+    flex: 1;
+}
+
+header .left h1 {
+    font-family: var(--headingText);
+}
+
+header .left p {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+
+header .left button {
+    background-color: pink;
+    padding: 12px 22px 12px 22px;
+    border: none;
+    border-radius: 20px;
+}
+
+header .right {
+    flex: 1
+}
+
+header .right img {
+    width: 100%;
+}
+
+
+.growing {
+    display: flex;
+    padding: 64px;
+    align-items: center;
+}
+
+.grow {
+    flex: 1;
+}
+
+.grow h2 {
+    font-family: var(--headingText);
+}
+
+.grow p {
+    margin-top: 16px;
+}
+
+.grow_right {
+    flex: 1;
+}
+
+.grow_right img {
+    width: 100%;
+}
+
+.flow {
+    display: flex;
+    padding: 64px;
+    align-items: center;
+}
+
+.flowing {
+    flex: 1;
+}
+
+.flowing_right h2 {
+    font-family: var(--headingText);
+}
+
+.flowing_right p {
+    margin-top: 16px;
+}
+
+.flowing_right {
+    flex: 1;
+}
+
+.flowing img {
+    width: 100%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+    gap: 16px;
+}
+
+.user .left {
+    flex: 1;
+
+}
+
+.user .left h2 {
+    font-family: var(--headingText);
+}
+
+.user .left p {
+    margin-top: 16px;
+}
+
+.user .right {
+    flex: 1;
+}
+
+.user .right img {
+    width: 100%;
+}
+
+.ready {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 32px 32px;
+    box-shadow: 0.5px 0 0 1px grey;
+    margin: 0 auto -60px auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.ready h2 {
+    margin-bottom: 32px;
+    font-family: var(--headingText);
+}
+
+.ready button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+footer {
+    width: 100%;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: rgb(18, 37, 18);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+}
+
+footer .left img {
+    width: 150px;
+}
+
+footer .left p {
+    display: flex;
+    gap: 8px;
+    font-family: var(--bodyText);
+}
+
+footer .left p img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .center {
+    display: flex;
+    justify-content: space-around;
+
+    flex: 1;
+}
+
+footer .right {
+    flex: 1;
+    font-family: var(--bodyText);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding-top: 16px;
+    font-family: var(--bodyText);
+}
+
+
+
+@media only screen and (max-width:600px) {
+    nav {
+        padding: 0 32px;
+    }
+
+    header {
+        padding: 32px 32px;
+        flex-direction: column;
+    }
+
+    header .left {
+        text-align: center;
+    }
+
+    header .right {
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .growing {
+        flex-direction: column;
+    }
+
+    .flow {
+        flex-direction: column;
+    }
+
+    .user {
+        flex-direction: column;
+    }
+
+    .ready {
+        width: 70%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    footer .center {
+        flex-direction: column;
+    }
+
+    footer .right {
+        padding-top: 32px;
+        text-align: center;
+    }
+}
